@@ -19,6 +19,8 @@ function getPlayerChoice() {
 }
 
 // compare and declare winner
-function playRound(computerSelection, playerSelection) {
-    
+function playRound() {
+    const playerSelection = getPlayerChoice();
+    let computerSelection =  getComputerChoice();
+    return;
 }
