@@ -22,5 +22,15 @@ function getPlayerChoice() {
 function playRound() {
     const playerSelection = getPlayerChoice();
     let computerSelection =  getComputerChoice();
-    return;
+    if (playerSelection === computerSelection) {
+        console.log("Round ends in a draw!")
+    } else if (playerSelection === "rock" && computerSelection === "paper") {
+        console.log("Player Wins this round rock beats paper!")
+    }
+}
+
+function playGame() {
+    for (let i = 0; i < 5; i++) {
+        playRound();
+    }
 }
