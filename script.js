@@ -31,7 +31,7 @@ function playRound() {
 }
 
 function playGame() {
-    for (let i = 0; i < 5; i++) {
+  /*  for (let i = 0; i < 5; i++) {        //Logic for 5 games, ON HOLD.
         playRound();
-    }
+    }   */
 }
